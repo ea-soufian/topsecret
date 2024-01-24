@@ -1,0 +1,49 @@
+/* Valentine Questions and Buttons Styles */
+.valentine-question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* Zorg ervoor dat dit boven de bloemen wordt weergegeven */
+    background-color: rgba(255, 255, 255, 0.8); /* Licht doorzichtige achtergrond */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .valentine-question h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #d10068; /* Aanpasbare kleur */
+    margin-bottom: 20px;
+  }
+  
+  .valentine-question button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #d10068; /* Aanpasbare kleur */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .valentine-question button:hover {
+    background-color: #b8005c; /* Donkerder bij hover */
+  }
+  
+  /* Specifieke stijl voor de 'Nee' knop */
+  #no-btn {
+    background-color: #f44336; /* Rood voor afwijzing */
+  }
+  
+  #no-btn:hover {
+    background-color: #d32f2f; /* Donkerder rood bij hover */
+  }
+  
